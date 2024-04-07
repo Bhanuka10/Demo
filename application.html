@@ -1,0 +1,71 @@
+
+<html >
+<head>
+    <title>application</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-side {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .right-side {
+            flex: 1;
+            padding: 10px;
+        }
+
+        /* Style form elements as needed */
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body bgcolor="lightgray">
+    <h2 ><font  size="6" face="Arial"><b>Fill this Application</font></h2>
+       <div class="container"> 
+        
+          <div class="left-side">
+            <form action="">
+              Name:-<input type="text" name="name" maxlength="30" placeholder="HSR ADHIKARINAYAKE"><br><br>
+            Date of birth:-<input type="date"><br><br>
+           <label for="gender" > Gender:-</label>  <input type="radio" name="Gender" id="male"  value="male">
+                                                   <label for="male">Male</label><br>
+                                                <input type="radio" name="Gender" value="female" id="female" >
+                                                <label for="female">Female</label> <br><br>
+            Email address:-<input type="email" placeholder="aaaaa@gmail.com"><br><br>
+            Educational qulification:-<div><select  name="Edu" multiple ><br><br>
+                <option value="grade 8">up to grade 8</option>
+                <option value="o/l">O/L</option>
+                <option value="A/L">A/L</option>
+                <option value="genaral degree">Genaral degree</option>
+                <option value="spicial degree">special degree</option>
+                <option value="MSC">MSC</option>
+                <option value="PHD">PHD</option></select></div><br><br>
+            Phone number:-<input type="number" placeholder="0111111111" maxlength="10"><br><br>
+            Extra curricular Activiies:-<br> <textarea rows="10" cols="15" placeholder="give a list"></textarea><br>
+        </form>    
+        </div>
+
+            <div class="right-side">
+                <form action="">
+                Upload a Cv<input type="file" name="file" >
+                Upload a your Image:- <input type="image" name="image button" src="Desktop">
+                </form>
+
+            </div>
+            
+       
+            
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
